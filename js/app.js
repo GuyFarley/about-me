@@ -56,21 +56,24 @@ function q3() {
   }
 }
 q3();
+
 // prompt and alert #4
-let questionFour = prompt('Is my favorite music genre "country"?').toLowerCase();
+function q4() {
+  let questionFour = prompt('Is my favorite music genre "country"?').toLowerCase();
 
-if (questionFour === 'yes' || questionFour === 'y') {
-  // console.log(`User\'s response to Q4 was '${questionFour}'. Response to user: 'Sorry, that\'s incorrect.'`);
-  alert('Sorry, that\'s incorrect.');
-} else if (questionFour === 'no' || questionFour === 'n') {
-  // console.log(`User\'s response to Q4 was '${questionFour}'. Response to user: 'That\'s correct. I\'m more of an alternative rock guy.'`);
-  score = score + 1;
-  alert('That\'s correct. I\'m more of an alternative rock guy.');
-} else {
-  // console.log(`User\'s response to Q4 was '${questionFour}'. Response to user: 'Please answer with a valid response (Yes or No)!'`);
-  alert('Please answer with a valid response (Yes or No)!');
+  if (questionFour === 'yes' || questionFour === 'y') {
+    // console.log(`User\'s response to Q4 was '${questionFour}'. Response to user: 'Sorry, that\'s incorrect.'`);
+    alert('Sorry, that\'s incorrect.');
+  } else if (questionFour === 'no' || questionFour === 'n') {
+    // console.log(`User\'s response to Q4 was '${questionFour}'. Response to user: 'That\'s correct. I\'m more of an alternative rock guy.'`);
+    score = score + 1;
+    alert('That\'s correct. I\'m more of an alternative rock guy.');
+  } else {
+    // console.log(`User\'s response to Q4 was '${questionFour}'. Response to user: 'Please answer with a valid response (Yes or No)!'`);
+    alert('Please answer with a valid response (Yes or No)!');
+  }
 }
-
+q4();
 // prompt and alert #5
 let questionFive = prompt('Was "No Country For Old Men" my favorite movie of 2007?').toLowerCase();
 
