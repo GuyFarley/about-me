@@ -40,20 +40,22 @@ function q2() {
 }
 q2();
 // prompt and alert #3
-let questionThree = prompt('Have I ever been skydiving?').toLowerCase();
+function q3() {
+  let questionThree = prompt('Have I ever been skydiving?').toLowerCase();
 
-if (questionThree === 'yes' || questionThree === 'y') {
-  // console.log(`User\'s response to Q3 was '${questionThree}'. Response to user: 'Nope, never been. I\'m not a fan of heights.'`);
-  alert('Nope, never been. I\'m not a fan of heights.');
-} else if (questionThree === 'no' || questionThree === 'n') {
-  // console.log(`User\'s response to Q3 was '${questionThree}'. Response to user: 'That\'s right. I\'m not jumping out of a plane unless it\'s on fire.'`);
-  score = score + 1;
-  alert('That\'s right. I\'m not jumping out of a plane unless it\'s on fire.');
-} else {
-  // console.log(`User\'s response to Q3 was '${questionThree}'. Response to user: 'Please answer with a valid response (Yes or No)!'`);
-  alert('Please answer with a valid response (Yes or No)!');
+  if (questionThree === 'yes' || questionThree === 'y') {
+    // console.log(`User\'s response to Q3 was '${questionThree}'. Response to user: 'Nope, never been. I\'m not a fan of heights.'`);
+    alert('Nope, never been. I\'m not a fan of heights.');
+  } else if (questionThree === 'no' || questionThree === 'n') {
+    // console.log(`User\'s response to Q3 was '${questionThree}'. Response to user: 'That\'s right. I\'m not jumping out of a plane unless it\'s on fire.'`);
+    score = score + 1;
+    alert('That\'s right. I\'m not jumping out of a plane unless it\'s on fire.');
+  } else {
+    // console.log(`User\'s response to Q3 was '${questionThree}'. Response to user: 'Please answer with a valid response (Yes or No)!'`);
+    alert('Please answer with a valid response (Yes or No)!');
+  }
 }
-
+q3();
 // prompt and alert #4
 let questionFour = prompt('Is my favorite music genre "country"?').toLowerCase();
 
