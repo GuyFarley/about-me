@@ -92,23 +92,25 @@ function q5() {
 }
 q5();
 // prompt and alert #6
-let myNum = 9;
-for (let i = 0; i < 4; i++) {
+function q6() {
+  let myNum = 9;
+  for (let i = 0; i < 4; i++) {
 
-  let questionSix = parseInt(prompt('Please guess a number between 1 and 10'));
-  if (questionSix === myNum) {
-    score = score + 1;
-    alert('That\'s correct!');
-    break;
-  } else if ((questionSix < myNum) && (i <= 2)) {
-    alert('Your number is too low! Please try again.');
-  } else if ((questionSix > myNum) && (i <= 2)) {
-    alert('Your number is too high! Please try again.');
-  } else if ((questionSix !== myNum) && (i === 3)) {
-    alert('Sorry, you are out of attempts! The correct answer was 9.');
+    let questionSix = parseInt(prompt('Please guess a number between 1 and 10'));
+    if (questionSix === myNum) {
+      score = score + 1;
+      alert('That\'s correct!');
+      break;
+    } else if ((questionSix < myNum) && (i <= 2)) {
+      alert('Your number is too low! Please try again.');
+    } else if ((questionSix > myNum) && (i <= 2)) {
+      alert('Your number is too high! Please try again.');
+    } else if ((questionSix !== myNum) && (i === 3)) {
+      alert('Sorry, you are out of attempts! The correct answer was 9.');
+    }
   }
 }
-
+q6();
 // prompt and alert #7
 let myFoods = ['pancakes', 'steak', 'cereal'];
 // console.log(myFoods);
