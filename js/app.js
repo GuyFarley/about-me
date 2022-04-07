@@ -112,20 +112,23 @@ function q6() {
 }
 q6();
 // prompt and alert #7
-let myFoods = ['pancakes', 'steak', 'cereal'];
-// console.log(myFoods);
+function q7() {
+  let myFoods = ['pancakes', 'steak', 'cereal'];
+  // console.log(myFoods);
 
-for (let i = 0; i < 6; i++) {
-  let questionSeven = prompt(`What is one of my favorite foods? You get 6 tries...`).toLowerCase();
-  // console.log(questionSeven);
-  for (let f = 0; f < myFoods.length; f++) {
-    if (questionSeven === myFoods[f]) {
-      score = score + 1;
-      alert(`That's correct!`);
-      i = 6;
+  for (let i = 0; i < 6; i++) {
+    let questionSeven = prompt(`What is one of my favorite foods? You get 6 tries...`).toLowerCase();
+    // console.log(questionSeven);
+    for (let f = 0; f < myFoods.length; f++) {
+      if (questionSeven === myFoods[f]) {
+        score = score + 1;
+        alert(`That's correct!`);
+        i = 6;
+      }
     }
   }
 }
+q7();
 
 alert(`I would have accepted any of the following answers: ${myFoods[0]}, ${myFoods[1]}, or ${myFoods[2]}.`);
 // console.log(`I would have accepted any of the following answers: ${myFoods[0]}, ${myFoods[1]}, or ${myFoods[2]}.`);
