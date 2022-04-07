@@ -75,20 +75,22 @@ function q4() {
 }
 q4();
 // prompt and alert #5
-let questionFive = prompt('Was "No Country For Old Men" my favorite movie of 2007?').toLowerCase();
+function q5() {
+  let questionFive = prompt('Was "No Country For Old Men" my favorite movie of 2007?').toLowerCase();
 
-if (questionFive === 'yes' || questionFive === 'y') {
-  // console.log(`User\'s response to Q5 was '${questionFive}'. Response to user: 'That's correct, ${visitor}! Although 2007 was a strong year for movies, that one was my favorite.'`);
-  score = score + 1;
-  alert(`That's correct, ${visitor}! Although 2007 was a strong year for movies, that one was my favorite.`);
-} else if (questionFive === 'no' || questionFive === 'n') {
-  // console.log(`User\'s response to Q5 was '${questionFive}'. Response to user: 'Sorry ${visitor}, that\'s incorrect. You\'re probably thinking it was "There Will Be Blood" but that was actually my 2nd favorite.'`);
-  alert(`Sorry ${visitor}, that's incorrect. You're probably thinking it was "There Will Be Blood" but that was actually my 2nd favorite.`);
-} else {
-  // console.log(`User\'s response to Q5 was '${questionFive}'. Response to user: 'Please answer with a valid response (Yes or No)!'`);
-  alert(`Sorry ${visitor}, please answer with a valid response (Yes or No)!`);
+  if (questionFive === 'yes' || questionFive === 'y') {
+    // console.log(`User\'s response to Q5 was '${questionFive}'. Response to user: 'That's correct, ${visitor}! Although 2007 was a strong year for movies, that one was my favorite.'`);
+    score = score + 1;
+    alert(`That's correct, ${visitor}! Although 2007 was a strong year for movies, that one was my favorite.`);
+  } else if (questionFive === 'no' || questionFive === 'n') {
+    // console.log(`User\'s response to Q5 was '${questionFive}'. Response to user: 'Sorry ${visitor}, that\'s incorrect. You\'re probably thinking it was "There Will Be Blood" but that was actually my 2nd favorite.'`);
+    alert(`Sorry ${visitor}, that's incorrect. You're probably thinking it was "There Will Be Blood" but that was actually my 2nd favorite.`);
+  } else {
+    // console.log(`User\'s response to Q5 was '${questionFive}'. Response to user: 'Please answer with a valid response (Yes or No)!'`);
+    alert(`Sorry ${visitor}, please answer with a valid response (Yes or No)!`);
+  }
 }
-
+q5();
 // prompt and alert #6
 let myNum = 9;
 for (let i = 0; i < 4; i++) {
