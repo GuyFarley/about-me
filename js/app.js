@@ -23,20 +23,22 @@ function q1() {
 }
 q1();
 // prompt and alert #2
-let questionTwo = prompt('Was I born in France?').toLowerCase();
+function q2() {
+  let questionTwo = prompt('Was I born in France?').toLowerCase();
 
-if (questionTwo === 'yes' || questionTwo === 'y') {
-  // console.log(`User\'s response to Q2 was '${questionTwo}'. Response to user: 'Sorry, that\'s incorrect. I was born in CA.'`);
-  alert('Sorry, that\'s incorrect. I was born in CA.');
-} else if (questionTwo === 'no' || questionTwo === 'n') {
-  // console.log(`User\'s response to Q2 was '${questionTwo}'. Response to user: 'Correct! I was not born in France, I was born in California'`);
-  score = score + 1;
-  alert('Correct! I was NOT born in France, I was born in California');
-} else {
-  // console.log(`User\'s response to Q2 was '${questionTwo}'. Response to user: 'Please answer with a valid response (Yes or No)!'`);
-  alert('Please answer with a valid response (Yes or No)!');
+  if (questionTwo === 'yes' || questionTwo === 'y') {
+    // console.log(`User\'s response to Q2 was '${questionTwo}'. Response to user: 'Sorry, that\'s incorrect. I was born in CA.'`);
+    alert('Sorry, that\'s incorrect. I was born in CA.');
+  } else if (questionTwo === 'no' || questionTwo === 'n') {
+    // console.log(`User\'s response to Q2 was '${questionTwo}'. Response to user: 'Correct! I was not born in France, I was born in California'`);
+    score = score + 1;
+    alert('Correct! I was NOT born in France, I was born in California');
+  } else {
+    // console.log(`User\'s response to Q2 was '${questionTwo}'. Response to user: 'Please answer with a valid response (Yes or No)!'`);
+    alert('Please answer with a valid response (Yes or No)!');
+  }
 }
-
+q2();
 // prompt and alert #3
 let questionThree = prompt('Have I ever been skydiving?').toLowerCase();
 
