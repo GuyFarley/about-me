@@ -6,20 +6,22 @@ let visitor = prompt('Hello, what is your name?');
 alert(`Welcome ${visitor}, let's play a guessing game. Please answer Yes or No to the following questions.`);
 
 // prompt and alert #1
-let questionOne = prompt('Is breakfast my favorite meal of the day?').toLowerCase();
+function q1() {
+  let questionOne = prompt('Is breakfast my favorite meal of the day?').toLowerCase();
 
-if (questionOne === 'yes' || questionOne === 'y') {
-  // console.log(`User\'s response to Q1 was '${questionOne}'. Response to user: 'You are correct! I love me some breakfast.'`);
-  score = score + 1;
-  alert('You are correct! I love me some breakfast.');
-} else if (questionOne === 'no' || questionOne === 'n') {
-  // console.log(`User\'s response to Q1 was '${questionOne}'. Response to user: 'Sorry, that\'s incorrect. Breakfast is the best.'`);
-  alert('Sorry, that\'s incorrect. Breakfast is the best.');
-} else {
-  // console.log(`User\'s response to Q1 was '${questionOne}'. Response to user: 'Please answer with a valid response (Yes or No)!'`);
-  alert('Please answer with a valid response (Yes or No)!');
+  if (questionOne === 'yes' || questionOne === 'y') {
+    // console.log(`User\'s response to Q1 was '${questionOne}'. Response to user: 'You are correct! I love me some breakfast.'`);
+    score = score + 1;
+    alert('You are correct! I love me some breakfast.');
+  } else if (questionOne === 'no' || questionOne === 'n') {
+    // console.log(`User\'s response to Q1 was '${questionOne}'. Response to user: 'Sorry, that\'s incorrect. Breakfast is the best.'`);
+    alert('Sorry, that\'s incorrect. Breakfast is the best.');
+  } else {
+    // console.log(`User\'s response to Q1 was '${questionOne}'. Response to user: 'Please answer with a valid response (Yes or No)!'`);
+    alert('Please answer with a valid response (Yes or No)!');
+  }
 }
-
+q1();
 // prompt and alert #2
 let questionTwo = prompt('Was I born in France?').toLowerCase();
 
