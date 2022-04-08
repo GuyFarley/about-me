@@ -6,13 +6,23 @@ html {
 
 header {
   background-color: #97C2B3;
+  margin: 10px;
 }
 
 header h1 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 30pt;
+  font-weight: bold;
+  font-size: 36pt;
   text-align: center;
-  padding: 30px;
+  padding-top: 30px;
+}
+
+header h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14pt;
+  text-align: center;
+  padding-bottom: 20px;
+  margin-top: 20px;
 }
 
 main {
@@ -29,9 +39,10 @@ article h2 {
   background-color: #367D8F;
   text-align: center;
   padding: 15px 15px;
+  margin-left: 10px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: white;
-  width: 40%;
+  width: 45%;
 }
 
 p {
@@ -53,7 +64,7 @@ ul li {
   font-size: 11pt;
   width: 550px;
   margin-left: 40px;
-  line-height: 2em;
+  line-height: 1.5em;
 }
 
 ol {
@@ -67,11 +78,27 @@ ol li {
   font-size: 11pt;
   width: 550px;
   margin-left: 45px;
-  line-height: 2em;
+  line-height: 1.5em;
+}
+
+div {
+  width: 550px;
+  float: right;
+}
+
+div img {
+  position: absolute;
+  float: left;
+  top: 197px;
+  border-style: solid;
+  border-width: 4px;
+  border-color: #423F16;
+  padding: 3px;
 }
 
 footer {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: #97C2B3;
-  margin-top: 30px;
+  margin: 10px;
   padding: 10px;
 }
