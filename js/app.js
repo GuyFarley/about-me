@@ -112,8 +112,10 @@ function q6() {
 }
 q6();
 // prompt and alert #7
+
 function q7() {
   let myFoods = ['pancakes', 'steak', 'cereal'];
+
   // console.log(myFoods);
 
   for (let i = 0; i < 6; i++) {
@@ -127,11 +129,10 @@ function q7() {
       }
     }
   }
+  alert(`I would have accepted any of the following answers: ${myFoods[0]}, ${myFoods[1]}, or ${myFoods[2]}.`);
+  // console.log(`I would have accepted any of the following answers: ${myFoods[0]}, ${myFoods[1]}, or ${myFoods[2]}.`);
 }
 q7();
-
-alert(`I would have accepted any of the following answers: ${myFoods[0]}, ${myFoods[1]}, or ${myFoods[2]}.`);
-// console.log(`I would have accepted any of the following answers: ${myFoods[0]}, ${myFoods[1]}, or ${myFoods[2]}.`);
 
 alert(`You guessed ${score} out of 7 questions correctly!`);
 // console.log(`You guessed ${score} out of 7 questions correctly!`);
