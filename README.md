@@ -33,3 +33,11 @@ Credit to:
 
 - I struggled a bit with getting my code to execute on the loops. I would like to better understand why the `if...else` statement would not seem to work on my nested loop on question 7
 - I feel pretty good about how I planned out my solutions before writing any code. I was able to put the general structure together pretty easily, but the devil is in the details!
+
+
+## Lab 04
+
+- For this lab, I added some additional functions to questions 1-7. Guy and Kyel worked together on this code. 
+
+ -Guy Farley(Navigator)
+ -Kyel Boisseau(Driver)
